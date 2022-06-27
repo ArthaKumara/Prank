@@ -35,7 +35,7 @@ try:
 		time.sleep(4.8)
 		if 'Success' in send:
 			n +=1
-			print(f"[{n}] Sended to => {no}")
+			print(f"[{n}] Sended to => [{no}]")
 		else:
 			print("\n\t* Limit *")
 			print("\n\t* Try one hour ago or try tomorrow *")
