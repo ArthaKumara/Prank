@@ -37,7 +37,7 @@ class kntl():
                 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
                 'referer': 'https://www.citcall.com/demo/',
                 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
-                'cookie': f'PHPSESSID'={ck}}
+                'cookie': f'PHPSESSID={ck}'}
                 dt={'cellNo':self.gb,'csrf_token':j}
                 r1=requests.post('https://www.citcall.com/demo/verification.php', data=dt, headers=ua)
                 dt1={'cid':self.gb,'trying':'0','csrf_token':j}
